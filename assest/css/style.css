@@ -374,3 +374,49 @@ marquee {
    color: green;
 }
 /* FooterEnd Section End */
+
+/* ===================== About Us Section Start ================================== */
+/* Banner Section Start */
+.banner_home{
+    position:absolute;
+    top:200px;
+}
+@media screen and (max-width:500px){
+    .about_bannerName{
+       position: absolute;
+       bottom: 1px;
+       left: 95px;
+    }
+}
+/* Banner Section End */
+/* About Us Section Start */
+.about_page{
+    background-color: rgb(245, 244, 244);
+}
+.about_page img {
+    box-shadow: 0px 0px 5px 2px rgb(238, 233, 233);
+    border-radius: 10px;
+}
+.about_page p {
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
+/* About Us Section End */
+/* Company Section Start */
+.company{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.company .fa-building{
+    color: green;
+}
+/* Company Section End */
+/* ===================== Research Section Start ================================== */
+.research_overviewpara{
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
+.research_overviewpara p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
