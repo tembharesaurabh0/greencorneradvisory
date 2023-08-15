@@ -67,6 +67,16 @@
 .nav-item .nav-link:hover {
     color: rgb(216, 211, 211)
 }
+@media screen and (max-width:900px){
+    .bg_nav{
+        background-color: rgb(10, 10, 10);
+        z-index: 2;
+        border-radius: 15px;
+    }
+    .clock_animation{
+        display: none;
+    }
+}
 /* Navbar End */
 
 /* Carousel Start */
@@ -115,7 +125,7 @@
 .hire_btn{
     background-color: green;
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:550px){
     .carousel-caption p{
      font-size: 12px;
     }
@@ -375,7 +385,7 @@ marquee {
 }
 /* FooterEnd Section End */
 
-/* ===================== About Us Section Start ================================== */
+/* ===================== About Us Page Start ================================== */
 /* Banner Section Start */
 .banner_home{
     position:absolute;
@@ -411,12 +421,100 @@ marquee {
     color: green;
 }
 /* Company Section End */
-/* ===================== Research Section Start ================================== */
+/* ===================== About Us Page End ================================== */
+/* ===================== Research Page Start ================================== */
+/* Research Overview Section Start */
 .research_overviewpara{
     font-size: 13px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.8px;
+    padding: 0px 80px 0px 80px;
 }
-.research_overviewpara p{
-    margin-left: 150px;
-    margin-right: 150px;
+.researchfocus_right{
+    background-color: white;
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 21px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 2px rgb(224, 221, 221);
+    border-bottom: 3px solid rgb(192, 214, 192);
+    transition:all 0.3s ease-in-out;
 }
+.researchfocus_right:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-5px);
+}
+/* Research Overview Section End */
+/* Trading Section Start */
+.trading{
+    background-color: rgb(245, 244, 244);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+ }
+/* Trading Section End */
+/* ===================== Research Page End ================================== */
+/* ===================== Products Page Start ================================== */
+/* Product Section Start */
+.product{
+    background-color:rgb(245, 244, 244);
+}
+.product_box{
+    background-color: white;
+    box-shadow: 1px 1px 10px 7px rgb(201, 200, 200);
+}
+.tab-content{
+   margin-bottom: 100px;
+}
+.sidetab{
+    font-size: 13px;
+}
+.normal, .info{
+    font-size: 12px;
+}
+.info_b{
+    font-size: 14px;
+}
+.p_btn{
+    font-size: 13px;
+    padding: 8px;
+    color: rgb(58, 57, 57);
+    background-color: rgb(215, 216, 215);
+}
+.buy_btn{
+    color: white;
+    background-color: green;
+}
+/* Product Section End */
+/* ===================== Products Page End ================================== */
+/* ===================== Book Demo Page Start ================================== */
+/* Book Demo Section Start */
+.bookdemo_bg{
+    filter: opacity(40%);
+}
+.bookdemo{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    right: 100px;
+    filter: opacity(70%);
+}
+.demo_box{
+    box-shadow: 2px 2px 10px 10px black;
+}
+.checkpara p{
+    font-size: 13.5px;
+    color: rgb(37, 161, 37);
+}
+.bookdemo_hed{
+    color: red;
+}
+.demo_submit{
+   background-color: white;
+   transition: all 0.3s ease-in-out;
+}
+.demo_submit:hover{
+color: white;
+background-color: rgb(19, 189, 19);
+box-shadow: 1px 1px 10px 5px rgb(19, 170, 19);
+}
+/* Book Demo Section End */
+/* ===================== Book Demo Page End ================================== */
